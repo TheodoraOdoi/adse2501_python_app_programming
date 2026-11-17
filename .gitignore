@@ -1,0 +1,7 @@
+.idea/
+.app/Scripts/
+.app/Lib/
+.app/Include/
+.app/etc/
+.app/share/
+.app/pyvenv.cfg
