@@ -78,3 +78,49 @@ print(f"False + n(5) is: {false_value + n}")
 print(f"True + a(8) is: {true_value + a}")
 print(f"True x a(8) is: {true_value * a}")
 print(f"(n < a) x 10 + (n == a) x 20 is: {(n < a) * 10 + (n == a) * 20}")
+
+# Demonstrate various numbering systems
+
+# Binary values base2
+
+print('Binary value(s) demonstration')
+
+# Binary values or literals are represented using the prefix 0b or 0B (zero & letter b)
+
+binary_value = 0b1011  # Binary for 11 in decimal
+
+print(f"Value of 'binary_value' is:{bin(binary_value)}"
+
+      f"\nIn Octal {oct(binary_value)}\nIn decimal: {binary_value}"
+
+      f"\nIn Hexadecimal {hex(binary_value)}\n\n")
+
+# Octal values base8
+
+print('Octal value(s) demonstration')
+
+# Octal values or literals are represented using the prefix 0o or 0O (zero & letter o)
+
+octal_value = 0o20  # Binary for 16 in decimal
+
+print(f"Value of 'octal_value' is:{oct(octal_value)}"
+
+      f"\nIn binary {bin(octal_value)}\nIn decimal: {octal_value}"
+
+      f"\nIn Hexadecimal {hex(octal_value)}\n\n")
+
+# Hexadecimal values base16
+
+print('Hexadecimal value(s) demonstration')
+
+# Hexadecimal values or literals are represented using the prefix 0x or 0X (zero & letter x)
+
+hex_value = 0x18  # Hexadecimal for 24 in decimal
+
+print(f"Value of 'hex_value' is:{hex(hex_value)}"
+
+      f"\nIn binary {bin(hex_value)}"
+
+      f"\nIn octal {oct(hex_value)}"
+
+      f"\nIn decimal: {hex_value}\n\n")
